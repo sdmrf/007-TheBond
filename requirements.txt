@@ -1,11 +1,7 @@
-beautifulsoup4==4.9.3
-certifi==2023.7.22
-chardet==4.0.0
-google==3.0.0
-idna==2.10
-phonenumbers==8.12.7
-pyfiglet==0.8.post0
-requests==2.31.0
-six==1.15.0
-soupsieve==2.2
-urllib3==1.26.18
+pyfiglet # for banner of ASCII art
+phonenumbers # for phone number
+google # for google search
+urllib3 # for url
+requests # for url  
+six # for url
+

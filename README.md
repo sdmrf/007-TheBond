@@ -1,61 +1,120 @@
+# 007-TheBond
 
+## Description
 
-# Inofrmation about the Script 
-
-OSNIT Script , which let help you to find the information of your Friend , Family , the crush that dosen't talk to you and your enemies 😎
+007-TheBond is a Python OSINT (Open Source Intelligence) script that lets you find the information of your friends, family, crushes that don't talk to you, and your enemies.😎
 
 # Screenshot of the Script
-![Screenshot](ScrnShot.JPG)
-
-# Features 
-1. Instagram osnit 
-2. Phonenumber osnit
-3. Search Username Across the Social Media 
-4. Search the web 
-5. IplookUp
+![Screenshot](./assets/Interface.jpg)
 
 
-# Disclaimer
-Disclaimer : - DeadShot0x7 will not responsible if you misuse the script , by using  the script you're that you will be responsible for the loss you have made 
-# Version 
- Version of 007-TheBond is 2.0 , this is official Release of the Project 
+## Features
 
-# Usage
+1. **Instagram OSINT**
+   - Obtain information from Instagram profiles.
+2. **Phonenumber OSINT**
 
-1. Clone the repository by using `git clone`
-2. Go to the **cloned** directory 
-`cd 007-TheBond`
-3. Create a virutal environment and activate the environment
-```
-python -m venv venv
-source venv/bin/activate
-```
-3. Install the required packages or run `setup.sh` 
-```
-pip install -r requirements.txt
-```
-OR
-```
-./setup.sh
-```
-4. Run the Script 
-```
-python 007-TheBond.py
-```
+   - Gather details using a phone number.
+
+3. **Search Username Across Social Media**
+
+   - Explore a username's presence on different social media platforms.
+
+4. **Search the Web**
+
+   - Perform a general web search for information.
+
+5. **IP Lookup**
+   - Retrieve details about an IP address.
+
+## Disclaimer
+
+**Disclaimer:** Deadshot0x7 will not be responsible if you misuse the script. By using the script, you acknowledge that you will be responsible for any loss you incur.
+
+## Version
+
+**Version:** 3.0
+
+This is the official release of the Project.
+
+## Usage
+
+1. Clone the repository using git clone:
+   ```bash
+   git clone https://github.com/Deadshot0x7/007-TheBond.git
+   ```
+2. Navigate to the directory:
+   ```bash
+   cd 007-TheBond
+   ```
+   Simply click `bash run_007-TheBond.bat ` on Windows or `bash run_007-TheBond.sh` on Linux and MacOS to execute the script effortlessly.
+
+Alternatively, manually execute the script by following the steps below:
+
+3. Create a virutal environment and activate the environment:
+   ```bash
+   For Linux and MacOS:
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+   ```bash
+   For Windows:
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+4. Install the requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. Run the script:
+   ```bash
+   cd scripts
+   python3 007-TheBond.py
+   ```
+6. Enter the username/phone number/IP address/keyword you want to search for.
 
 # Testing
-This script is tested  on these operating system 
+
+This script is tested on these operating system
 
 1. Kali Linux
 2. Parrot Linux
 3. Termux (find Instagram user is not working currently)
-4. Garuda Linux 
+4. Garuda Linux
+5. Ubuntu
 
-# Like and Fork
-Leave a like to the Repository and feel free to fork the project  🙂
+# Contribution
 
-# Pull Request 
-Add your Ideas to the project, feel free to pull request the project 
+If you want to contribute to this project, you can fork this project and make a pull request. I will review your pull request and merge it if it is good.
+
+## How to Contribute
+
+### Bug Reports
+
+If you find a bug, please open an issue on our [Issue Tracker](https://github.com/Deadshot0x7/007-TheBond/issues) with detailed information about the bug, including how to reproduce it.
+
+### Feature Requests
+
+If you have a feature request, feel free to open an issue on our [Issue Tracker](https://github.com/Deadshot0x7/007-TheBond/issues). Provide a clear description of the feature you would like to see.
+
+### Pull Requests
+
+We welcome your pull requests! Follow these steps to contribute:
+
+1. Fork the project.
+2. Create your feature branch:
+   ```bash
+   git checkout -b feature/NewFeature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add some feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/NewFeature
+   ```
+5. Submit a pull request.
 
 # Discord Server 
 Join the The Discord Community  to know the Updation and Accounment of the tools 😊
