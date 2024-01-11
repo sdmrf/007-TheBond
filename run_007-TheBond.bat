@@ -1,4 +1,5 @@
 @echo off
+color 0a
 
 :: Check if venv folder already exists
 if not exist venv (
