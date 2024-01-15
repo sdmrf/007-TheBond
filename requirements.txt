@@ -4,4 +4,6 @@ google # for google search
 urllib3 # for url
 requests # for url  
 six # for url
+email-validate # for email validation
+
 

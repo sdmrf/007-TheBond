@@ -9,6 +9,7 @@ from Search import WebSearch
 from PhoneLookup import Lookup
 from IpLookup import IpLookup
 from SearchUsername import SearchUsername
+from EmailLookup import EmailLookup
 
 # Author
 author = "Deadshot0x7"
@@ -41,10 +42,10 @@ if  __name__=="__main__":
 
         while True:
 
-            print("1. Instagram \t 2. Web Search")
-            print("3. Phone     \t 4. Ip Address Lookup")
-            print("5. Update    \t 6. Search username in all platforms")
-            print("7. Exit")
+            print("1. Instagram    \t 2. Web Search")
+            print("3. Phone Lookup \t 4. Ip Address Lookup")
+            print("5. Update       \t 6. Search username in all platforms")
+            print("7. Email Lookup \t 8. Exit")
 
             option = input(">>> ")
 
@@ -75,8 +76,12 @@ if  __name__=="__main__":
             elif option == '6':
                 username = input("Enter the username: ")
                 SearchUsername(username)
-
+            
             elif option == '7':
+                email = input("Enter the email address: ")
+                EmailLookup(email)
+
+            elif option == '8':
                 logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
                 logging.info("Exiting the script")
                 exit()

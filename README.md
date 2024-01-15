@@ -69,7 +69,7 @@ Alternatively, manually execute the script by following the steps below:
 5. Run the script:
    ```bash
    cd scripts
-   python3 007-TheBond.py
+   python 007-TheBond.py
    ```
 6. Enter the username/phone number/IP address/keyword you want to search for.
 
