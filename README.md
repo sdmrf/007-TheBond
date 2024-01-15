@@ -5,7 +5,7 @@
 007-TheBond is a Python OSINT (Open Source Intelligence) script that lets you find the information of your friends, family, crushes that don't talk to you, and your enemies.😎
 
 # Screenshot of the Script
-![Screenshot](./assets/Interface.png)
+![Screenshot](./assets/Interface%201.png)
 
 
 ## Features
@@ -26,6 +26,10 @@
 
 5. **IP Lookup**
    - Retrieve details about an IP address.
+
+6. **Email Lookup**
+   - Check if an email address has been involved in any data breaches using the Have I Been Pwned API.
+
 
 ## Disclaimer
 
