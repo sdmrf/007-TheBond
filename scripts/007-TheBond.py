@@ -44,8 +44,8 @@ if  __name__=="__main__":
 
             print("1. Instagram    \t 2. Web Search")
             print("3. Phone Lookup \t 4. Ip Address Lookup")
-            print("5. Update       \t 6. Search username in all platforms")
-            print("7. Email Lookup \t 8. Exit")
+            print("5. Email Lookup \t 6. Search username in all platforms")
+            print("7. Update       \t 8. Exit")
 
             option = input(">>> ")
 
@@ -66,20 +66,21 @@ if  __name__=="__main__":
                 IpLookup(ip)
             
             elif option == '5':
-                try:
-                    os.system("git pull")
-                except:
-                    logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
-                    logging.info("Error while updating the script")
-                    exit()
+                email = input("Enter the email address: ")
+                EmailLookup(email)
+
             
             elif option == '6':
                 username = input("Enter the username: ")
                 SearchUsername(username)
             
             elif option == '7':
-                email = input("Enter the email address: ")
-                EmailLookup(email)
+                try:
+                    os.system("git pull")
+                except:
+                    logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
+                    logging.info("Error while updating the script")
+                    exit()
 
             elif option == '8':
                 logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
